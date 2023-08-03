@@ -7,7 +7,8 @@ containing the string and the
 square of the int or float
 """
 
-from typing
+import typing
+
 
 def to_kv(k: str, v: typing.Union[int, float]) -> typing.Tuple[str, float]:
     """returns tuple containing k and square
